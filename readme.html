@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; L&eacute;ame</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="http://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+	<br /> Versi&oacute;n 3.4.1
+</h1>
+<p style="text-align: center">Plataforma Sem&aacute;ntica de Publicaci&oacute;n Personal</p>
+
+<h1>Primero lo primero</h1>
+<p>Bienvenido. WordPress es un proyecto muy especial para m&iacute;. Cada desarrollador y colaborador le a&ntilde;aden algo &uacute;nico a la mezcla, y juntos hemos creado algo hermoso del cual me siento orgulloso de ser parte. Miles de horas dedicadas a WordPress, y estamos comprometidos a hacerlo mejor cada d&iacute;a. Gracias por hacer de WordPress parte de su mundo.</p>
+<p style="text-align: right">&#8212; Matt Mullenweg</p>
+
+<h1>Instalaci&oacute;n: los famosos 5 minutos de instalaci&oacute;n</h1>
+<ol>
+	<li>Descomprima el paquete .ZIP en un directorio vac&iacute;o y c&aacute;rguelo.</li>
+	<li>Acceda al fichero <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> desde su navegador. Esto le llevar&aacute; a trav&eacute;s de un proceso para configurar un fichero <code>wp-config.php</code> con los datos de conexi&oacute;n a su base de datos.
+		<ol>
+			<li>Si por alguna raz&oacute;n esto no funciona, no se preocupe. Esto no funciona en todos los alojamientos web. Acceda al fichero <code>wp-config-sample.php</code> con ayuda de un editor de texto como WordPad o similar y complete los datos de conexi&oacute;n a su base de datos.</li>
+			<li>Guarde este fichero como <code>wp-config.php</code> y c&aacute;rguelo.</li>
+			<li>Acceda a <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> desde su navegador.</li>
+		</ol>
+	</li>
+	<li>Una vez que el fichero est&eacute; configurado, el instalador crear&aacute; las tablas necesarias para su sitio. Si ocurre un error, revise su fichero <code>wp-config.php</code>, e intente nuevamente. Si vuelve a fallar, por favor, visite los <a href="http://wordpress.org/support/" title="WordPress support">foros de soporte</a> con todos los datos que pueda aportar.</li>
+	<li><strong>Si no ha ingresado alguna contrase&ntilde;a, anote la contrase&ntilde;a que se le ha asignado.</strong> Si usted no ha proporcionado un nombre de usuario, &eacute;ste ser&aacute; <code>admin</code>.</li>
+  <li>Luego, el instalador le llevear&aacute; a la <a href="wp-login.php">p&aacute;gina de inicio de sesi&oacute;n</a>. Ingrese con el nombre de usuario y contrase&ntilde;a que eligi&oacute; durante la instalaci&oacute;n. Si una contrase&ntilde;a fue generada para usted, entonces puede hacer clic en 'Perfil' para cambiarla.</li>
+</ol>
+
+<h1>Actualizaci&oacute;n</h1>
+<h2>Utilizando el actualizador autom&aacute;tico</h2>
+<p>Si est&aacute; actualizando desde la versi&oacute;n 2.7 o superior, puede utilizar este actualizador:</p>
+<ol>
+	<li>Acceda a <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> desde su navegador y siga las instrucciones.</li>
+	<li>&iquest;Esperaba algo m&aacute;s? &iexcl;Esto es todo!</li>
+</ol>
+
+<h2>Actualizaci&oacute;n manual</h2>
+<ol>
+	<li>Antes de actualizar, aseg&uacute;rese de realizar copias de seguridad de cualquier archivo que haya modificado, como del fichero <code>index.php</code>.</li>
+	<li>Elimine los ficheros de su anterior versi&oacute;n de WordPress, guardando previamente aquellos que haya modificado.</li>
+	<li>Cargue los nuevos ficheros.</li>
+	<li>Dirija su navegador a <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+</ol>
+
+<h2>Cambio en las plantillas de los temas</h2>
+<p>Si usted ha personalizado las plantillas de su tema, puede que necesite hacer algunos cambios en las versiones superiores.</p>
+
+<h1>Migrando desde otros sistemas</h1>
+<p>WordPress puede <a href="http://codex.wordpress.org/Importing_Content">importar desde varios sistemas</a>. En primer lugar usted necesita tener WordPress instalado y funcionando como se describi&oacute; anteriormente, antes de usar <a href="wp-admin/import.php" title="Importar a WordPress">nuestra herramienta de importaci&oacute;n</a>.</p>
+
+<h1>Requerimientos del sistema</h1>
+<ul>
+	<li><a href="http://php.net/">PHP</a> versi&oacute;n <strong>5.2.4</strong> o superior.</li>
+	<li><a href="http://www.mysql.com/">MySQL</a> versi&oacute;n <strong>5.0</strong> o superior.</li>
+</ul>
+
+<h2>Recomendaciones del sistema</h2>
+<ul>
+	<li>El m&oacute;dulo <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a> de Apache.</li>
+	<li>Un enlace a <a href="http://wordpress.org/">http://wordpress.org</a> en su sitio.</li>
+</ul>
+
+<h1>Recursos en l&iacute;nea</h1>
+<p>Si alguna de sus preguntas no tiene respuesta en este documento, le sugerimos que aproveche los numerosos recursos de WordPress en la red:</p>
+
+<dl>
+	<dt><a href="http://codex.wordpress.org/">El Codex de WordPress</a></dt>
+		<dd>El Codex es la enciclopedia de todo lo relacionado con WordPress. Es la fuente de informaci&oacute;n m&aacute;s detallada disponible sobre WordPress.</dd>
+	<dt><a href="http://wordpress.org/news/">El Blog de WordPress</a></dt>
+		<dd>Aqu&iacute; encontrar&aacute; las &uacute;ltimas actualizaciones y noticias relacionadas con WordPress. Las recientes noticias aparecer&aacute;n por defecto en su panel de administraci&oacute;n.</dd>
+	<dt><a href="http://planet.wordpress.org/">Planeta WordPress</a></dt>
+		<dd>Planeta WordPress es un agregador de noticias que recopila entradas de blogs de WordPress por toda la web.</dd>
+	<dt><a href="http://wordpress.org/support/">Foros de Soporte de WordPress</a></dt>
+		<dd>Si ha buscado por todas partes pero contin&uacute;a sin hallar respuestas, en los activos foros de soporte cuenta con una amplia comunidad deseosa de ayudar. Para ayudarle, aseg&uacute;rese de usar un t&iacute;tulo descriptivo e incluir en su pregunta tantos detalles como le sea posible.</dd>
+	<dt><a href="http://codex.wordpress.org/IRC">Canal <abbr title="Internet Relay Chat">IRC</abbr> de WordPress</a></dt>
+		<dd>Existe un canal de chat utilizado por los usuarios de Wordpress para intercambiar opiniones y eventualmente solicitar ayuda. La p&aacute;gina wiki que ve arriba puede orientarle. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
+
+<h1>Interfaz <abbr title="Lenguaje de Marcas eXtensible">XML</abbr>-<abbr title="Llamada a Procedimiento Remoto">RPC</abbr> y Atom</h1>
+<p>Puede publicar en su blog de WordPress usando herramientas como <a href="http://download.live.com/writer">Windows Live Writer</a>, <a href="http://illuminex.com/ecto/">Ecto</a>, <a href="http://bloggar.com/">w.bloggar</a>, <a href="http://radio.userland.com/">Radio Userland</a> (es decir, puede utilizar la funci&oacute;n de correo-a-blog de Radio Userland), <a href="http://www.newzcrawler.com/">NewzCrawler</a>, &iexcl;y otras herramientas que soporten las <abbr title="Interfaz de Programaci&oacute;n de Aplicaciones">API</abbr> de publicaci&oacute;n! :) Puede leer m&aacute;s acerca del soporte de <a href="http://codex.wordpress.org/XML-RPC_Support"><abbr>XML</abbr>-<abbr>RPC</abbr> en el Codex</a>.</p>
+
+<h1>Publicar desde el correo</h1>
+<p>Puede publicar por medio de una cuenta de correo. Para configurar esta opci&oacute;n, vaya a la pantalla de opciones de &quot;Escritura&quot; y complete los datos de su cuenta <abbr title="Post Office Protocol versi&oacute;n 3">POP3</abbr> privada. Luego necesitar&aacute; configurar <code>wp-mail.php</code> para ejecutarlo peri&oacute;dicamente para revisar el buz&oacute;n en busca de nuevos correos. Puede hacerlo mediante <a href="http://en.wikipedia.org/wiki/Cron">cron</a>-jobs, o si su alojamiento no lo permite, puede buscar uno de los muchos servicios de monitorizaci&oacute;n web para que compruebe la <abbr title="Localizador Uniforme de Recursos">URL</abbr> de su <code>wp-mail.php</code>.</p>
+<p>Publicar es sencillo: cualquier correo que env&iacute;e a la direcci&oacute;n especificada ser&aacute; publicada, con el asunto como el t&iacute;tulo. Lo mejor es mantener en privado la direcci&oacute;n. El script <em>borrar&aacute;</em> los correos una vez publicados correctamente.</p>
+
+<h1>Funciones de usuario</h1>
+<p>Hemos introducido un sistema de funciones muy flexible en la versi&oacute;n 2.0. Usted puede <a href="http://codex.wordpress.org/Roles_and_Capabilities" title="Funciones y capacidades de WordPress">leer m&aacute;s acerca de las Funciones y Capacidades en el Codex</a>.</p>
+
+<h1>Notas finales</h1>
+<ul>
+	<li>Si tiene alguna sugerencia, idea, comentario, o si encuentra (&iexcl;oh!) alg&uacute;n fallo, &uacute;nase a nosotros en los <a href="http://wordpress.org/support/">Foros de Soporte</a>.</li>
+	<li>WordPress tiene una robusta <abbr title="Interfaz de Programaci&oacute;n de Aplicaciones ">API</abbr> que facilita la ampliaci&oacute;n del c&oacute;digo b&aacute;sico. Si usted es un desarrollador interesado en utilizarla, revise la <a href="http://codex.wordpress.org/Plugin_API" title="API de los plugins de WordPress">documentaci&oacute;n sobre los plugins en el Codex</a>. Usted no necesitar&aacute; modificar nada del c&oacute;digo.</li>
+</ul>
+
+<h1>Comparta su afici&oacute;n</h1>
+<p>WordPress no cuenta con campa&ntilde;as multimillonarias de publicidad o promotores famosos, pero tiene algo a&uacute;n mejor&#8212;usted. Si disfruta con WordPress, por favor, considere decirle a un amigo, instalarlo para alguien menos entendido que usted, o escribir al autor de un art&iacute;culo que nos deja de lado.</p>
+
+<p>WordPress es la continuaci&oacute;n oficial de <a href="http://cafelog.com/">b2/caf&#233;log</a>, que fue creado por Michel V. La obra ha sido continuada por los <a href="http://wordpress.org/about/">desarrolladores de WordPress</a>. Si usted desea apoyar a WordPress, por favor, considere hacer una <a href="http://wordpress.org/donate/" title="Done a WordPress">donaci&oacute;n</a>.</p>
+
+<h1>Licencia</h1>
+<p>WordPress es un software libre, y se distribuye bajo los t&eacute;rminos de la licencia <abbr title="Licencia P&uacute;blica GNU">GPL</abbr> versi&oacute;n 2 o (a su elecci&oacute;n) cualquier versi&oacute;n posterior. Ver la <a href="licencia.txt">licencia en espa&ntilde;ol</a> o la original en <a href="license.txt">ingl&eacute;s</a>.</p>
+
+
+</body>
+</html>
