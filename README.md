@@ -23,6 +23,3 @@ lo demas queda predeterminado
 usuario administrador: admin
 
 pass administador: adminnucleo
-
-webw
-====
