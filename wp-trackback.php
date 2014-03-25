@@ -1,10 +1,10 @@
 <?php
 /**
  * Handle Trackbacks and Pingbacks sent to WordPress
- *
+ *     s 
  * @package WordPress
  */
-
+     
 if (empty($wp)) {
 	require_once('./wp-load.php');
 	wp( array( 'tb' => '1' ) );
